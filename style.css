@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#resetButton {
+    margin-bottom: 20px;
+}
+
+#container {
+    display: grid;
+    width: 960px;
+    height: 960px;
+}
+
+.square {
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
